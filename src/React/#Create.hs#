@@ -9,6 +9,7 @@ import React.Node(
 		Fixable
 	)
 import Asterius.Types
+
 import Data.Functor(Functor)
 class Create content where
 	(/&) :: (Props props) => content -> props -> Node content props NoChilds
